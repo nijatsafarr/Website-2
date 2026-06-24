@@ -1,0 +1,49 @@
+{
+  "header": {
+    "categories": "カテゴリー",
+    "home": "ホーム",
+    "contact": "お問い合わせ",
+    "smartphones": "スマートフォン",
+    "smartphonesDesc": "携帯電話、タブレット、モバイルアクセサリー",
+    "computers": "ノートパソコン・コンピューター",
+    "computersDesc": "ノートパソコン、コンピューター、モニター、アクセサリー",
+    "homeAppliances": "家電製品",
+    "homeAppliancesDesc": "冷蔵庫、洗濯機、オーブン、エアコン、冷凍庫",
+    "homeGarden": "ホーム＆ガーデン",
+    "homeGardenDesc": "家具、プールとアクセサリー、カメラ",
+    "other": "その他...",
+    "otherDesc": "スポーツと健康、建設、輸送と娯楽、オフィス機器"
+  },
+  "hero": {
+    "title": "iPhone 17シリーズ",
+    "price": "2299.99 AZNから",
+    "description": "今すぐ入手できます。"
+  },
+  "footer": {
+    "solutions": "ソリューション",
+    "marketing": "マーケティング",
+    "analytics": "分析",
+    "commerce": "コマース",
+    "support": "サポート",
+    "pricing": "価格",
+    "docs": "ドキュメント",
+    "guide": "ガイド",
+    "company": "会社",
+    "about": "会社概要",
+    "blog": "ブログ",
+    "career": "採用情報",
+    "legal": "法的情報",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "description": "お客様に最高のデジタル体験を提供します。",
+    "copyright": "無断転載を禁じます。"
+  },
+  "icmal": {
+    "color": "色",
+    "reviews": "レビュー",
+    "order": "今すぐ注文",
+    "description": "説明",
+    "features": "特徴",
+    "notFound": "商品が見つかりません"
+  }
+}

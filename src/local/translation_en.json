@@ -1,0 +1,54 @@
+{
+"header": {
+"categories": "Categories",
+"home": "Home",
+"contact": "Contact",
+"smartphones": "Smartphones",
+"smartphonesDesc": "Mobile phones, Tablets and Mobile Accessories",
+"computers": "Laptops & Computers",
+"computersDesc": "Laptops, Computers, Monitors and Computer Accessories",
+"homeAppliances": "Home Appliances",
+"homeAppliancesDesc": "Refrigerators, Washing Machines, Ovens, Air Conditioners and Freezers",
+"homeGarden": "Home & Garden",
+"homeGardenDesc": "Furniture, Pools and Accessories, Cameras",
+"other": "Other...",
+"otherDesc": "Sports & Health, Construction, Transportation & Entertainment, Office Equipment"
+},
+"hero": {
+    "title": "iPhone 17 Series",
+    "price": "Starting from 2299.99 AZN",
+    "description": "Get Yours Today."
+  },
+"footer": {
+"solutions": "Solutions",
+"marketing": "Marketing",
+"analytics": "Analytics",
+"commerce": "Commerce",
+
+"support": "Support",
+"pricing": "Pricing",
+"docs": "Documentation",
+"guide": "Guide",
+
+"company": "Company",
+"about": "About Us",
+"blog": "Blog",
+"career": "Careers",
+
+"legal": "Legal",
+"privacy": "Privacy",
+"terms": "Terms",
+
+"description": "We design and build the best digital experiences for our customers.",
+"copyright": "All rights reserved."
+
+},
+"icmal": {
+    "color": "Color",
+    "reviews": "reviews",
+    "order": "Order Now!",
+    "description": "Description",
+    "features": "Features",
+    "notFound": "Product not found"
+  }
+}

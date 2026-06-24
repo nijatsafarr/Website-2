@@ -1,0 +1,55 @@
+{
+"header": {
+"categories": "Kateqoriyalar",
+"home": "Əsas Səhifə",
+"contact": "Əlaqə",
+"smartphones": "Smartfonlar",
+"smartphonesDesc": "Mobil telefonlar, Planşetlər və Mobil Aksesuarlar",
+"computers": "Noutbuklar & Kompüterlər",
+"computersDesc": "Noutbuklar və Kompüterlər, Monitorlar, Kompüter aksesuarları",
+"homeAppliances": "Məişət əşyaları",
+"homeAppliancesDesc": "Soyuducu, Paltaryuyan, Soba, Kondisioner və Dondurucular",
+"homeGarden": "Ev və bağ üçün əşyalar",
+"homeGardenDesc": "Mebel, Hovuz və aksesuarları, Kameralar",
+"other": "Digər...",
+"otherDesc": "İdman və Sağlamlıq, İnşaat, Nəqliyyat və Əyləncə, Ofis avadanlığı"
+},
+"hero": {
+    "title": "iPhone 17 Seriyası",
+    "price": "2299.99 AZN-dən",
+    "description": "Başlayan Qiymətlərlə Əldə Edin."
+  }
+,
+"footer": {
+"solutions": "Həllər",
+"marketing": "Marketinq",
+"analytics": "Analitika",
+"commerce": "Ticarət",
+
+"support": "Dəstək",
+"pricing": "Qiymətlər",
+"docs": "Sənədlər",
+"guide": "Bələdçi",
+
+"company": "Şirkət",
+"about": "Haqqımızda",
+"blog": "Bloq",
+"career": "Karyera",
+
+"legal": "Hüquqi",
+"privacy": "Məxfilik",
+"terms": "Şərtlər",
+
+"description": "Müştərilərimiz üçün ən yaxşı rəqəmsal təcrübəni dizayn və inşa edirik.",
+"copyright": "Bütün hüquqlar qorunur."
+
+},
+ "icmal": {
+    "color": "Rəng",
+    "reviews": "rəy",
+    "order": "Sifariş Et!",
+    "description": "Təsvir",
+    "features": "Özəllikləri",
+    "notFound": "Məhsul tapılmadı"
+  }
+}

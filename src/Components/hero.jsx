@@ -1,8 +1,8 @@
 'use client'
-
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useTranslation } from 'react-i18next'
 
 const navigation = [
   // { name: 'Product', href: '#' },
@@ -13,6 +13,7 @@ const navigation = [
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const {t} = useTranslation()
 
   return (
     <div className="bg-gray-900">
@@ -118,8 +119,8 @@ export default function Hero() {
           </div>
           <div className="relative z-10 text-center">
             <h1 className="relative bottom-58 text-5xl font-semibold tracking-tight text-balance text-black sm:text-7xl">
-              iPhone 17 Seriyası
-              <p className='text-4xl my-2.5 relative top-10'> <span className='text-red-500'>2299.99 AZN-dən</span> Başlayan Qiymətlərlə Əldə Edin.</p>
+              {t("hero.title")}
+              <p className='text-4xl my-2.5 relative top-10'> <span className='text-red-500'>{t("hero.price")}</span>{t("hero.description")}</p>
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
             </div>

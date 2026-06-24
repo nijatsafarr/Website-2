@@ -1,0 +1,49 @@
+{
+  "header": {
+    "categories": "Kategoriler",
+    "home": "Ana Sayfa",
+    "contact": "İletişim",
+    "smartphones": "Akıllı Telefonlar",
+    "smartphonesDesc": "Cep telefonları, tabletler ve mobil aksesuarlar",
+    "computers": "Dizüstü Bilgisayarlar ve Bilgisayarlar",
+    "computersDesc": "Dizüstü bilgisayarlar, bilgisayarlar, monitörler ve aksesuarlar",
+    "homeAppliances": "Ev Aletleri",
+    "homeAppliancesDesc": "Buzdolabı, çamaşır makinesi, fırın, klima ve derin dondurucular",
+    "homeGarden": "Ev ve Bahçe",
+    "homeGardenDesc": "Mobilyalar, havuzlar ve aksesuarları, kameralar",
+    "other": "Diğer...",
+    "otherDesc": "Spor ve sağlık, inşaat, ulaşım ve eğlence, ofis ekipmanları"
+  },
+  "hero": {
+    "title": "iPhone 17 Serisi",
+    "price": "2299,99 AZN'den başlayan fiyatlarla",
+    "description": "Hemen sahip olun."
+  },
+  "footer": {
+    "solutions": "Çözümler",
+    "marketing": "Pazarlama",
+    "analytics": "Analitik",
+    "commerce": "Ticaret",
+    "support": "Destek",
+    "pricing": "Fiyatlandırma",
+    "docs": "Dokümantasyon",
+    "guide": "Rehber",
+    "company": "Şirket",
+    "about": "Hakkımızda",
+    "blog": "Blog",
+    "career": "Kariyer",
+    "legal": "Yasal",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar",
+    "description": "Müşterilerimiz için en iyi dijital deneyimleri tasarlıyor ve geliştiriyoruz.",
+    "copyright": "Tüm hakları saklıdır."
+  },
+  "icmal": {
+    "color": "Renk",
+    "reviews": "yorum",
+    "order": "Sipariş Ver!",
+    "description": "Açıklama",
+    "features": "Özellikler",
+    "notFound": "Ürün bulunamadı"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "header": {
+    "categories": "Kategorien",
+    "home": "Startseite",
+    "contact": "Kontakt",
+    "smartphones": "Smartphones",
+    "smartphonesDesc": "Mobiltelefone, Tablets und Mobilzubehör",
+    "computers": "Laptops & Computer",
+    "computersDesc": "Laptops, Computer, Monitore und Computerzubehör",
+    "homeAppliances": "Haushaltsgeräte",
+    "homeAppliancesDesc": "Kühlschränke, Waschmaschinen, Öfen, Klimaanlagen und Gefrierschränke",
+    "homeGarden": "Haus & Garten",
+    "homeGardenDesc": "Möbel, Pools und Zubehör, Kameras",
+    "other": "Weitere...",
+    "otherDesc": "Sport und Gesundheit, Bauwesen, Transport und Unterhaltung, Büroausstattung"
+  },
+  "hero": {
+    "title": "iPhone 17 Serie",
+    "price": "Ab 2299,99 AZN",
+    "description": "Jetzt erhältlich."
+  },
+  "footer": {
+    "solutions": "Lösungen",
+    "marketing": "Marketing",
+    "analytics": "Analysen",
+    "commerce": "Handel",
+    "support": "Support",
+    "pricing": "Preise",
+    "docs": "Dokumentation",
+    "guide": "Leitfaden",
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "blog": "Blog",
+    "career": "Karriere",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen",
+    "description": "Wir gestalten und entwickeln die besten digitalen Erlebnisse für unsere Kunden.",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "icmal": {
+    "color": "Farbe",
+    "reviews": "Bewertungen",
+    "order": "Jetzt bestellen!",
+    "description": "Beschreibung",
+    "features": "Eigenschaften",
+    "notFound": "Produkt nicht gefunden"
+  }
+}

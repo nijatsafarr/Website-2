@@ -1,5 +1,5 @@
 'use client'
-
+import logoImg from '../assets/img2026.png'
 import { useState } from 'react'
 import { Link } from '@tanstack/react-router'
 import {
@@ -26,22 +26,23 @@ DevicePhoneMobileIcon,
   UserCircleIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-
+import { useTranslation } from 'react-i18next'
+import i18n from '../i18n'
+export default function Header() {
+  console.log(i18n.language);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const {t} = useTranslation()
 const products = [
-  { name: 'Smartfonlar', description: 'Mobil telefonlar, Planşetlər və Mobil Aksesuarlar', href: '#', icon:DevicePhoneMobileIcon  },
-  { name: 'Noutbuklar & Kompüterlər', description: 'Noutbuklar və Kompüterlər, Monitorlar, Kompüter aksesuarları', href: '#', icon: ComputerDesktopIcon },
-  { name: 'Məişət əşyaları', description: 'Soyuducu, Paltaryuyan, Soba, Kondisioner və Dondurucular, Elektrikli Robot Süpürgə', href: '#', icon: BoltIcon },
-  { name: 'Ev və bağ üçün əşyalar', description: 'Mebel, Hovuz və aksesuarları, Kameralar', href: '#', icon: HomeIcon },
-  { name: 'Digər...', description: 'İdman və Sağlamlıq, İnşaat, Nəqliyyat və Əyləncə, Ofis avadanlığı', href: '#', icon: EllipsisHorizontalIcon },
+  { name: t("header.smartphones"), description: t("header.smartphonesDesc"), href: '#', icon:DevicePhoneMobileIcon  },
+  { name: t("header.computers"), description: t("header.computersDesc"), href: '#', icon: ComputerDesktopIcon },
+  { name: t("homeAppliances"), description: t("header.homeAppliancesDesc"), href: '#', icon: BoltIcon },
+  { name: t("homeGarden"), description: t("header.homeGardenDesc"), href: '#', icon: HomeIcon },
+  { name: t("Other"), description: t("header.otherDesc"), href: '#', icon: EllipsisHorizontalIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
   { name: 'Əlaqə', href: '#', icon: PhoneIcon },
 ]
-
-export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <header className="sticky top-0 z-50 bg-violet-950">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
@@ -68,7 +69,7 @@ export default function Header() {
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-white cursor-pointer">
-              Kateqoriyalar
+              {t('header.categories')}
               <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-white" />
             </PopoverButton>
 
@@ -111,15 +112,31 @@ export default function Header() {
           </Popover>
 
           <Link to="/" className="text-sm/6 font-semibold text-white">
-            Əsas Səhifə
+            {t("header.home")}
           </Link>
           <Link to='/marketplace/' className="text-sm/6 font-semibold text-white">
             Outlet
           </Link>
           <Link to="#" className="text-sm/6 font-semibold text-white">
-            Əlaqə
+            {t("header.contact")}
           </Link>
         </PopoverGroup>
+        <div className="flex items-center gap-2 ml-56 ">
+        <select className="text-white cursor-pointer"
+        value={i18n.language}
+        onChange={(e)=>{i18n.changeLanguage(e.target.value)
+          localStorage.setItem("lang", e.target.value)
+        }}>
+        <option value='az' className="text-black">AZ</option>
+        <option value='en' className="text-black">EN</option>
+        <option value='de' className="text-black">DE</option>
+        <option value='es' className="text-black">ES</option>
+        <option value='fr' className="text-black">FR</option>
+        {/* <option value='ar' className="text-black">AR</option> */}
+        <option value='tr' className="text-black">TR</option>
+        <option value='ja' className="text-black">日本語</option>
+        </select>
+</div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link to="#" className="text-sm/6 font-semibold text-white">
             <UserCircleIcon className='h-5'/> <span aria-hidden="true">&rarr;</span>
@@ -134,7 +151,7 @@ export default function Header() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                src={logoImg}
                 className="h-8 w-auto"
               />
             </Link>
@@ -152,7 +169,7 @@ export default function Header() {
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
-                    Product
+                    {t('header.categories')}
                     <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
@@ -172,7 +189,7 @@ export default function Header() {
                   to="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Əsas Səhifə
+                  {t('header.home')}
                 </Link>
                 <Link
                   to="/marketplace"
@@ -184,7 +201,7 @@ export default function Header() {
                   to="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Əlaqə
+                  {t('header.contact')}
                 </Link>
               </div>
               <div className="py-6">

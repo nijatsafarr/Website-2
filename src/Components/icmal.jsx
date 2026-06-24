@@ -2,6 +2,7 @@ import { StarIcon } from '@heroicons/react/20/solid'
 import { useParams } from '@tanstack/react-router'
 import { products } from './Marketplace'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const reviews = {
   href: '#',
@@ -14,6 +15,7 @@ function classNames(...classes) {
 }
 
 export default function Icmal() {
+  const {t} = useTranslation()
   const { id } = useParams({ strict: false })
 
   const [product, setProduct] = useState(
@@ -23,7 +25,7 @@ export default function Icmal() {
   if (!product) {
     return (
       <div className="p-10 text-center text-2xl font-bold">
-        Product not found
+        {t("icmal.notFound")}
       </div>
     )
   }
@@ -58,7 +60,7 @@ export default function Icmal() {
 
             <div className="mt-6">
               <h3 className="text-lg font-semibold text-gray-900">
-                Rəng
+                {t("icmal.color")}
               </h3>
 
               <p className="mt-2 text-gray-600">
@@ -83,20 +85,20 @@ export default function Icmal() {
               </div>
 
               <p className="ml-3 text-sm text-gray-600">
-                {reviews.totalCount} reviews
+                {reviews.totalCount} {t('icmal.reviews')}
               </p>
             </div>
 
             {/* BUTTON */}
             <button className="mt-8 w-full rounded-xl bg-indigo-600 px-6 py-4 text-lg font-semibold text-white hover:bg-indigo-700 transition">
-              Sifariş Et!
+              {t("icmal.order")}
             </button>
           </div>
 
           {/* RIGHT */}
           <div>
             <h2 className="text-2xl font-bold text-gray-900">
-              Təsvir
+              {t("icmal.description")}
             </h2>
 
             <p className="mt-4 leading-7 text-gray-600">
@@ -106,7 +108,7 @@ export default function Icmal() {
             {/* FEATURES */}
             <div className="mt-10">
               <h3 className="text-xl font-semibold text-gray-900">
-                Özəllikləri
+                {t("icmal.features")}
               </h3>
 
               <ul className="mt-4 list-disc space-y-2 pl-5 text-gray-600">

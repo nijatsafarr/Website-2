@@ -1,0 +1,49 @@
+{
+  "header": {
+    "categories": "Catégories",
+    "home": "Accueil",
+    "contact": "Contact",
+    "smartphones": "Smartphones",
+    "smartphonesDesc": "Téléphones mobiles, tablettes et accessoires mobiles",
+    "computers": "Ordinateurs portables et PC",
+    "computersDesc": "Ordinateurs portables, ordinateurs, écrans et accessoires informatiques",
+    "homeAppliances": "Électroménager",
+    "homeAppliancesDesc": "Réfrigérateurs, lave-linge, fours, climatiseurs et congélateurs",
+    "homeGarden": "Maison & Jardin",
+    "homeGardenDesc": "Meubles, piscines et accessoires, caméras",
+    "other": "Autres...",
+    "otherDesc": "Sport et santé, construction, transport et divertissement, équipement de bureau"
+  },
+  "hero": {
+    "title": "Série iPhone 17",
+    "price": "À partir de 2299,99 AZN",
+    "description": "Disponible dès maintenant."
+  },
+  "footer": {
+    "solutions": "Solutions",
+    "marketing": "Marketing",
+    "analytics": "Analytique",
+    "commerce": "Commerce",
+    "support": "Support",
+    "pricing": "Tarifs",
+    "docs": "Documentation",
+    "guide": "Guide",
+    "company": "Entreprise",
+    "about": "À propos",
+    "blog": "Blog",
+    "career": "Carrière",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "description": "Nous concevons et développons les meilleures expériences numériques pour nos clients.",
+    "copyright": "Tous droits réservés."
+  },
+  "icmal": {
+    "color": "Couleur",
+    "reviews": "avis",
+    "order": "Commander maintenant !",
+    "description": "Description",
+    "features": "Caractéristiques",
+    "notFound": "Produit introuvable"
+  }
+}
